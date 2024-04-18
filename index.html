@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <nav class="menu" >
+            <img class="logo_header" src="assets/logo-br.png" alt="Logo da página" width="75px">
+            <a href="#about">Sobre mim</a>
+            <a href="#skills">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#formation">Formação</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="presentation">
+            <img src="assets/img-presentation.png" alt="imagem de perfil - apresentação">
+            <div class="presentation__content">
+                <h1>Olá, meu nome <br>é Bel Rocha</h1>
+                <h2>sou front-end developer!</h2>
+                <p>Sou  graduanda em Análise e Desenvolvimento de Sistemas pelo IFBA, Designer Gráfico e atualmente participo do projeto Oracle ONE na Alura.</p>
+                <div class="presentation__links">
+                    <a class="presentation__links__social" href="https://github.com/belrochadev" target="_blank"> <img src="assets/icon-github.png" alt="icone github" srcset="">GitHub</a>
+                    <a class="presentation__links__social" href="https://www.linkedin.com/in/belrochaoli/" target="_blank"><img src="assets/icon-linkedin.png" alt="icone linkedin">Linkedin</a>      
+                </div>
+            </div>       
+        </section>
+        <section class="about" id="about">
+            <div class="about__content">
+                <h2>Sobre Mim</h2>
+                <p>Sou Desenvolvedora Front-End e Designer Gráfico, graduanda de Análise e Desenvolvimento de Sistemas pelo IFBA. Durante minha formação, descobri uma paixão pela programação, especialmente pelo desenvolvimento front-end. Em 2020, durante a pandemia, iniciei cursos de design gráfico, onde percebi minha habilidade para criar artes digitais. Isso me fez refletir sobre como poderia integrar essa habilidade à minha carreira em programação,  então vi o front-end novamente sendo o caminho para essa integração de habilidades. Em 2024 iniciei minha formação focada em Front-end pelo projeto ONE da Oracle e Alura. Hoje estou aplicando meus conhecimentos para desenvolver aplicações com maior acessibilidade e também responsividade.</p>
+            </div>      
+            <img src="assets/img-about.png" alt="imagem de Bel Rocha usando o notebook">
+        </section>
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div  class="skills__content">
+                <div>
+                    <img src="assets/icon-html.png" alt="logo html">
+                    <h3>HTML</h3>
+                </div>
+                <div>
+                    <img src="assets/icon-css.png" alt="logo html">
+                    <h3>CSS</h3>
+                </div>
+                <div>
+                    <img src="assets/icon-js.png" alt="logo html">
+                    <h3>Javascript</h3>
+                </div>
+                <div>
+                    <img src="assets/icon-react.png" alt="logo html">
+                    <h3>React</h3>
+                </div>
+            </div>     
+        </section>
+        <section class="hobbies" id="hobbies">
+            <h2>Hobbies</h2>
+            <div class="hobbies__content">
+                <div>
+                    <img src="assets/icon-ukulele.png" alt="icone ukulele">
+                    <h3>Tocar</h3>
+                </div>
+                <div>
+                    <img src="assets/icon-cooking.png" alt="icone panela">
+                    <h3>Cozinhar</h3>
+                </div>
+                <div>
+                    <img src="assets/icon-player.png" alt="icone game">
+                    <h3>Jogar</h3>
+                </div>
+                <div>
+                    <img src="assets/icon-travel.png" alt="icone viajar">
+                    <h3>Viajar</h3>
+                </div>
+            </div>
+        </section>
+        <section class="formation" id="formation">
+            <h2>Formação</h2>
+            <div class="formation__content">
+                <div class="formation__content__content">
+                    <img src="assets/logo-ifba.png" alt="Logo do IFBA com fundo roxo">
+                    <h4>Graduanda em Análise e Desenvolvimento de Sistemas</h4>
+                    <h5>IFBA - Campus Valença</h5>
+                </div>
+                <div class="formation__content__content">
+                    <img src="assets/alura-logo.png" alt="Logo do Alura com fundo roxo">
+                    <h4>Formação Front-End</h4>
+                    <h5>Alura</h5>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2>Projetos</h2>
+            <p>Em construção...</p>
+        </section>
+        <section class="contact" id="contact">
+            <img src="assets/img-end.png" alt="imagem de bel rocha com braços cruzados">
+            <div class="contact__content">
+                <h2>Contato</h2>
+                <form id="form">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="name" name="nome" maxlength="50" required><br><br>
+                    
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="assunto">Assunto:</label><br>
+                    <input type="text" id="subject" name="assunto" required><br><br>
+                    
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="messagem" name="menssagem" rows="4" cols="50" required></textarea><br><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>      
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+<footer>
+    <p>Desenvolvido por Bel Rocha - 2024</p>
+</footer>
+</html>
